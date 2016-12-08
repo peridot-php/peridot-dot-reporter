@@ -19,6 +19,8 @@ You can register the reporter via your [peridot.php](http://peridot-php.github.i
 
 ```php
 <?php
+
+use Evenement\EventEmitterInterface;
 use Peridot\Reporter\Dot\DotReporterPlugin;
 
 return function(EventEmitterInterface $emitter) {
